@@ -1,19 +1,22 @@
 words
 =====
 
-This is an import of William Whitaker's WORDS Version 1.97FC LATIN-ENGLISH DICTIONARY PROGRAM.
+This is an import of William Whitaker's WORDS Version 1.97FC LATIN-ENGLISH
+DICTIONARY PROGRAM.
 
 using
 -----
 
-I don't know how to use `words` yet.  It probably isn't too hard, though.
+I don't know how to use `words` yet.  It probably isn't too hard,
+though.
 
 building
 --------
 
-words is written in Ada, which might be a problem.  Most Linux distros have gnat
-packages available.  On OSX I've been using Ada compiler binaries that I downloaded
-from http://libre.adacore.com/download/configurations and, still in OSX, I frob
+words is written in Ada, which might be a problem.  Most Linux distros
+have gnat packages available.  On OSX I've been using Ada compiler
+binaries that I downloaded from
+http://libre.adacore.com/download/configurations and, still in OSX, I frob
 `$PATH` with the following, which I have added to my bash configuration files.
 
     # ada crap

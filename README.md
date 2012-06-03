@@ -1,0 +1,4 @@
+words
+=====
+
+import of WORDS Version 1.97FC LATIN-ENGLISH DICTIONARY PROGRAM

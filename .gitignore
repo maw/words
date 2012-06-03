@@ -1,0 +1,9 @@
+*.o
+*.ali
+# binaries
+makedict
+makeefil
+makeewds
+makeinfl
+makestem
+words

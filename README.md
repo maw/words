@@ -13,7 +13,8 @@ building
 
 words is written in Ada, which might be a problem.  Most Linux distros have gnat
 packages available.  On OSX I've been using Ada compiler binaries that I downloaded
-from http://libre.adacore.com/download/configurations.  I frob $PATH with the following:
+from http://libre.adacore.com/download/configurations and, still in OSX, I frob
+`$PATH` with the following, which I have added to my bash configuration files.
 
     # ada crap
     IN_GNAT=0

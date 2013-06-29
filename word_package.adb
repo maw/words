@@ -20,13 +20,13 @@
          begin
          if WORDS_MDEV(PAUSE_IN_SCREEN_OUTPUT)  then
           if METHOD = INTERACTIVE  then
-           if TEXT_IO.NAME(OUTPUT) =
+--           if TEXT_IO.NAME(OUTPUT) =
 --                  TEXT_IO.NAME(TEXT_IO.STANDARD_OUTPUT)  then
 --                     TEXT_IO.PUT_LINE(TEXT_IO.STANDARD_OUTPUT,
 --                 "                          MORE - hit RETURN/ENTER to continue");
 --                     TEXT_IO.GET_LINE(TEXT_IO.STANDARD_INPUT, PAUSE_LINE, PAUSE_LAST);
                           TEXT_IO.PUT_LINE(TEXT_IO.STANDARD_OUTPUT, "");
-                  end if;
+  --                end if;
           elsif METHOD = COMMAND_LINE_INPUT  then
              TEXT_IO.PUT_LINE(TEXT_IO.STANDARD_OUTPUT, "");
 --                  TEXT_IO.PUT_LINE(TEXT_IO.STANDARD_OUTPUT,

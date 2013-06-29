@@ -26,10 +26,11 @@
                  "                          MORE - hit RETURN/ENTER to continue");
                      TEXT_IO.GET_LINE(TEXT_IO.STANDARD_INPUT, PAUSE_LINE, PAUSE_LAST);
                   end if;
-               elsif METHOD = COMMAND_LINE_INPUT  then
-                  TEXT_IO.PUT_LINE(TEXT_IO.STANDARD_OUTPUT,
-                                   "                          MORE - hit RETURN/ENTER to continue");
-                  TEXT_IO.GET_LINE(TEXT_IO.STANDARD_INPUT, PAUSE_LINE, PAUSE_LAST);
+          elsif METHOD = COMMAND_LINE_INPUT  then
+             TEXT_IO.PUT_LINE(TEXT_IO.STANDARD_OUTPUT, "");
+--                  TEXT_IO.PUT_LINE(TEXT_IO.STANDARD_OUTPUT,
+--                                   "                          MORE - hit RETURN/ENTER to continue");
+--                  TEXT_IO.GET_LINE(TEXT_IO.STANDARD_INPUT, PAUSE_LINE, PAUSE_LAST);
                elsif METHOD = COMMAND_LINE_FILES  then
                   null;                       --  Do not PAUSE
                end if;

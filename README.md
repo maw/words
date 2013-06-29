@@ -49,4 +49,14 @@ http://libre.adacore.com/download/configurations and, still in OSX, I frob
         export PS1=$PRE_GNAT_PS1
         echo "done."
     }
-    
+
+Once I have gnat installed and in my PATH, I say
+
+    gnatmake -O3 words
+    gnatmake -O3 makedict
+    gnatmake -O3 makestem
+    gnatmake -O3 makeewds
+    gnatmake -O3 makeefil
+    gnatmake -O3 makeinfl
+
+There is more info that I don't properly understand in the file HOWTO.txt.
